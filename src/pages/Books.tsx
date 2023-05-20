@@ -1,4 +1,4 @@
-import { Placeholder } from "components";
+import { Placeholder } from "components/common";
 
 const Books: React.FC = () => {
   return <Placeholder />;

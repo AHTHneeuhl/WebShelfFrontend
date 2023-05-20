@@ -8,10 +8,12 @@ import {
   MenFashionPage,
   WomenFashionPage,
 } from "pages";
+import { Navbar } from "components/navbar";
 
 const AppRoutes: React.FC = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path={routes.home} element={<HomePage />} />
         <Route path={routes.books} element={<BookPage />} />
