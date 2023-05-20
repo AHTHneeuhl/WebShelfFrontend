@@ -1,4 +1,4 @@
-import { Placeholder } from "components";
+import { Placeholder } from "components/common";
 
 const WomenFashion: React.FC = () => {
   return <Placeholder />;
